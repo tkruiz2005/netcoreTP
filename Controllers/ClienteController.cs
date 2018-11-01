@@ -9,7 +9,6 @@ using app.Models;
 
 namespace app.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
     public class ClienteController : ControllerBase
     {

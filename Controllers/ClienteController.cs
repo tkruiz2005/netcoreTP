@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using app.Models;
 
+
 namespace app.Controllers
 {
-    public class ClienteController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ClienteController : ControllerBase
     {
         [HttpGet]
         public IEnumerable<string> Get()

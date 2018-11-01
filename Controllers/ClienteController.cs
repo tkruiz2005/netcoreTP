@@ -9,6 +9,7 @@ using app.Models;
 
 namespace app.Controllers
 {
+    [Produces("application/json")]
     [Route("api/[controller]")]
     public class ClienteController : ControllerBase
     {

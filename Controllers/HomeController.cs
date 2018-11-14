@@ -17,7 +17,7 @@ namespace app.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Aplicaciones net.core Ejemplo.";
+            ViewData["Message"] = "Aplicaciones net.core";
 
             return View();
         }
